@@ -1,4 +1,6 @@
-**"Open Science is the movement to make scientific research (including publications, data, physical samples, and software) and its dissemination accessible to all levels of society, amateur or professional..." [(Wikipedia)](https://en.wikipedia.org/wiki/Open_science){target=_blank}**
+<div class="hero-quote" markdown>
+**"Open Science is the movement to make scientific research (including publications, data, physical samples, and software) and its dissemination accessible to all levels of society, amateur or professional..."** [(Wikipedia)](https://en.wikipedia.org/wiki/Open_science){target=_blank}
+</div>
 
 This Awesome List is compiled in the effort to help new researchers find and learn about Open Science Tools.
 
@@ -6,18 +8,95 @@ This Awesome List is compiled in the effort to help new researchers find and lea
 
 ## Contents
 
-  - [Funding Opportunities](funding.md)
-  - [Data Management Plans](dmp.md)
-  - [Data](data.md) 
-  - [Search Engines](search.md)
-  - [Open Accesss Publishing](publishing.md)
-  - [Open Peer Review](reviews.md)
-  - [Cyberinfrastructure](cyberinfrastructure.md)
-  - [Cloud](cloud.md)
-  - [Hardware](hardware.md)
-  - [Software](software.md)
-  - [Education](edu.md) 
-  - [Networks](networks.md)
+<div class="category-header" markdown>:material-flask: Research & Data</div>
+
+<div class="grid cards" markdown>
+
+- :material-cash-multiple: **[Funding Opportunities](funding.md)**
+
+    ---
+
+    Grants, awards, and travel funding for open science research worldwide
+
+- :material-file-document-edit: **[Data Management Plans](dmp.md)**
+
+    ---
+
+    Tools and templates for creating FAIR-compliant data management plans
+
+- :material-database: **[Data](data.md)**
+
+    ---
+
+    Repositories, standards, and resources for open research data
+
+- :material-magnify: **[Search Engines](search.md)**
+
+    ---
+
+    Academic search engines and discovery tools for research literature
+
+</div>
+
+<div class="category-header" markdown>:material-server: Tools & Infrastructure</div>
+
+<div class="grid cards" markdown>
+
+- :material-cloud-outline: **[Cyberinfrastructure](cyberinfrastructure.md)**
+
+    ---
+
+    Cloud platforms, HPC, distributed computing, and science gateways
+
+- :material-chip: **[Hardware](hardware.md)**
+
+    ---
+
+    Open hardware, sensors, single-board computers, and lab equipment
+
+- :material-code-braces: **[Software](software.md)**
+
+    ---
+
+    Open source research software, IDEs, notebooks, and workflow tools
+
+- :material-robot: **[AI & Machine Learning](ai-ml.md)**
+
+    ---
+
+    Open source LLMs, ML frameworks, and AI tools for scientific research
+
+</div>
+
+<div class="category-header" markdown>:material-account-group: Community & Education</div>
+
+<div class="grid cards" markdown>
+
+- :material-book-open-variant: **[Open Access Publishing](publishing.md)**
+
+    ---
+
+    Open access journals, preprint servers, and publishing platforms
+
+- :material-comment-check: **[Open Peer Review](reviews.md)**
+
+    ---
+
+    Open review platforms and transparent peer review initiatives
+
+- :material-school: **[Education](edu.md)**
+
+    ---
+
+    Training programs, courses, and resources for learning open science
+
+- :material-earth: **[Networks](networks.md)**
+
+    ---
+
+    Organizations, communities, and networks advancing open science
+
+</div>
 
 ### Open Science FAQ
 
@@ -34,9 +113,9 @@ This Awesome List is compiled in the effort to help new researchers find and lea
     ??? "Six Pillars :material-pillar: of Open Science"
 
         **:material-pillar: Open methodology**
-      
+
         **:material-pillar: Open Source Software**
-      
+
         **:material-pillar: Open Data**
 
         **:material-pillar: Open Access**
@@ -51,17 +130,17 @@ This Awesome List is compiled in the effort to help new researchers find and lea
 
         [National Academies Report 2019](https://www.nationalacademies.org/projects/DBASSE-BBCSS-17-03){target=_blank} - consensus study on reproducibility in science
 
-        **Reproducibility** means computational reproducibility—obtaining consistent computational results using the same input data, computational steps, methods, code, and conditions of analysis. 
+        **Reproducibility** means computational reproducibility—obtaining consistent computational results using the same input data, computational steps, methods, code, and conditions of analysis.
 
-        **Replicability** means obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data. 
+        **Replicability** means obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data.
 
     ??? "Reproducibility vs Replicability by Plesser (2018)"
 
         In [Reproducibility vs. Replicability](https://doi.org/10.3389%2Ffninf.2017.00076){target=_blank}, Hans Plesser gives the following useful definitions:
 
         **Repeatability** (Same team, same experimental setup): The measurement can be obtained with stated precision by the same team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same location on multiple trials. For computational experiments, this means that a researcher can reliably repeat her own computation.
-        
-        **Replicability** (Different team, same experimental setup): The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author’s own artifacts.
+
+        **Replicability** (Different team, same experimental setup): The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author's own artifacts.
 
         **Reproducibility** (Different team, different experimental setup): The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently.
 
@@ -86,10 +165,10 @@ This Awesome List is compiled in the effort to help new researchers find and lea
     ??? Idea "Commonly Identified Pillars :material-pillar:"
 
           **:material-pillar: Data**
-          
+
           FAIR Principles
 
-          CARE Principles 
+          CARE Principles
 
           **:material-pillar: Code**
 
@@ -104,7 +183,7 @@ This Awesome List is compiled in the effort to help new researchers find and lea
     [Abernathey et al. (2021)](https://doi.org/10.1109/MCSE.2021.3059437){target=_blank} propose three pillars of cloud native science
 
     ??? "Three Pillars :material-pillar: of Cloud Native Science"
-    
+
         **:material-pillar: Analysis-Ready Data (ARD)**
 
           also Analyisis Ready Cloud Optimized (ARCO) formats, e.g., [Cloud Optimized GeoTiff](https://cogeo.org){target=_blank}
@@ -136,9 +215,9 @@ id13([container registries]) --> id101([compute])
 
 id14([public data registry]) --> id101([compute])
 
-id10([open services]) --> id101([compute]) 
+id10([open services]) --> id101([compute])
 
-id11([open workflows]) --> id101([compute]) 
+id11([open workflows]) --> id101([compute])
 
 id4([open data]) --> id14([public data registry])
 
@@ -146,9 +225,9 @@ id101([compute]) <--> id15([on-prem]) & id16([commercial cloud]) & id17([public 
 
 id15([On-Prem]) <--> id20([open resources])
 
-id16([Commercial Cloud]) <--> id20([open resources]) 
+id16([Commercial Cloud]) <--> id20([open resources])
 
-id17([Public Clouds]) <--> id20([open resources]) 
+id17([Public Clouds]) <--> id20([open resources])
 ```
 
 Figure: Hypothetical flow of open science tools
